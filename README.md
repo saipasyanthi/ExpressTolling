@@ -4,7 +4,7 @@
 
 This is a sample Java Application (version 1.8)
 
-To calculate the distance and cost of a vehicle driving between the two end points from the Json file provided with the toll rate $0.25/km
+To calculate the distance and cost of a vehicle driving between the two end points from the data provided in Json file. The toll rate for this exercise will be $0.25/km
 
 ## How to Run
 
