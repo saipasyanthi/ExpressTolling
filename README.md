@@ -10,7 +10,7 @@ Calculate the distance and cost between the two end points from the Json file wh
 
 * Clone this repository in to your eclipse
 * Make sure you are using JDK 1.8
-* In eclipse go to project-> Right click-> build path-> Add external jars:
+* In eclipse go to project-> Right click-> Build Path-> Configure Build Path-> Libraries-> Add External JARs..:
 
         Add the Junit 4 dependency jars from the Junit 4 folder in the Git.
         Add the jose4j dependency jar from the Referenced Libraries folder in the Git.
