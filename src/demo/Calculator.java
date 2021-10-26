@@ -71,8 +71,7 @@ public class Calculator {
 					if (val != null) {
 						for (int j = 0; j < val.size(); j++) {
 							JSONObject startExit = (JSONObject) val.get(j);
-							int k = i + 1;
-							if ((Long) startExit.get("toId") >= k
+							if ((Long) startExit.get("toId") >= i
 									&& !startExit.get("distance").toString().contentEquals("0")) {
 								distance += (Double) startExit.get("distance");
 							}
@@ -86,8 +85,7 @@ public class Calculator {
 					if (val != null) {
 						for (int j = 0; j < val.size(); j++) {
 							JSONObject exitStart = (JSONObject) val.get(j);
-							int k = i - 1;
-							if ((Long) exitStart.get("toId") <= k
+							if ((Long) exitStart.get("toId") <= i
 									&& !exitStart.get("distance").toString().contentEquals("0")) {
 								distance += (Double) exitStart.get("distance");
 							}
