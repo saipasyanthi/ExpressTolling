@@ -4,7 +4,7 @@
 
 This is a sample Java Application (version 1.8)
 
-Calculate the distance and cost between the two end points. Where cost=0.25/km
+Calculate the distance and cost between the two end points from the Json file where cost=0.25/km
 
 ## How to Run
 
@@ -17,11 +17,13 @@ Calculate the distance and cost between the two end points. Where cost=0.25/km
   
   or
   
-* Change the paths of the jar folders in the .classpath file
+* Change the paths of the jar folders in the .classpath file:
         
+	```
 	<classpathentry kind="lib" path="C:/Users/Pelluri/workspace1/ExpressTolling/JUnit 4/junit.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Pelluri/workspace1/ExpressTolling/JUnit 4/org.hamcrest.core_1.3.0.v201303031735.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Pelluri/workspace1/ExpressTolling/Referenced Libraries/jose4j-0.6.3.jar"/>
+	```
 
 * Run the Calculator.java file in the src/demo
     
