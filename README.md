@@ -14,9 +14,12 @@ Calculate the distance and cost between the two end points. Where cost=0.25/km
 
         Add the Junit 4 dependency jars from the Junit 4 folder in the Git.
         Add the jose4j dependency jar from the Referenced Libraries folder in the Git.
+  
   or
+  
 * Change the paths of the jar folders in the .classpath file
-  <classpathentry kind="lib" path="C:/Users/Pelluri/workspace1/ExpressTolling/JUnit 4/junit.jar"/>
+        
+	<classpathentry kind="lib" path="C:/Users/Pelluri/workspace1/ExpressTolling/JUnit 4/junit.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Pelluri/workspace1/ExpressTolling/JUnit 4/org.hamcrest.core_1.3.0.v201303031735.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Pelluri/workspace1/ExpressTolling/Referenced Libraries/jose4j-0.6.3.jar"/>
 
