@@ -8,10 +8,10 @@ import java.util.List;
 
 import org.junit.Test;
 
-public class TestJunit {
+public class CalculatorTest {
 	 @Test		
 	   public void testAdd() {		 
-		 Calculator cal=new Calculator();
+	         Calculator cal=new Calculator();
 	     String distCost= cal.costofTrip("QEW", "Highway 400");
 	     List<String> items = Arrays.asList(distCost.split("-"));
 	     assertEquals(items.get(0),"67.748" );
