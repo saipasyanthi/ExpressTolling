@@ -4,13 +4,13 @@
 
 This is a sample Java Application (version 1.8)
 
-Calculate the distance and cost between the two end points from the Json file where cost=0.25/km
+To calculate the distance and cost of a vehicle driving between the two end points from the Json file provided with the toll rate $0.25/km
 
 ## How to Run
 
 * Clone this repository in to your eclipse
 * Make sure you are using JDK 1.8
-* Check the dependency jars if any issue in the Project:
+* Check the dependency jars if any issues in the Project:
 
      In eclipse go to project-> Right click-> Build Path-> Configure Build Path-> Libraries-> Add External JARs..:
 
