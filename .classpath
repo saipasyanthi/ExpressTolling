@@ -2,34 +2,8 @@
 <classpath>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
-	<classpathentry kind="lib" path="C:/Users/Pelluri/.m2/repository/org/bitbucket/b_c/jose4j/0.6.3/jose4j-0.6.3.jar" sourcepath="C:/Users/Pelluri/.m2/repository/org/bitbucket/b_c/jose4j/0.6.3/jose4j-0.6.3-sources.jar">
-		<attributes>
-			<attribute name="maven.pomderived" value="true"/>
-			<attribute name="maven.groupId" value="org.bitbucket.b_c"/>
-			<attribute name="maven.artifactId" value="jose4j"/>
-			<attribute name="maven.version" value="0.6.3"/>
-			<attribute name="maven.scope" value="compile"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/Pelluri/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.10.4/jackson-databind-2.10.4.jar">
-		<attributes>
-			<attribute name="maven.pomderived" value="true"/>
-			<attribute name="maven.groupId" value="com.fasterxml.jackson.core"/>
-			<attribute name="maven.artifactId" value="jackson-databind"/>
-			<attribute name="maven.version" value="2.10.4"/>
-			<attribute name="maven.scope" value="compile"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/Pelluri/Downloads/gson-2.6.2.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Pelluri/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.10.4/jackson-annotations-2.10.4.jar">
-		<attributes>
-			<attribute name="maven.pomderived" value="true"/>
-			<attribute name="maven.groupId" value="com.fasterxml.jackson.core"/>
-			<attribute name="maven.artifactId" value="jackson-annotations"/>
-			<attribute name="maven.version" value="2.10.4"/>
-			<attribute name="maven.scope" value="compile"/>
-		</attributes>
-	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Pelluri/workspace1/ExpressTolling/JUnit 4/junit.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Pelluri/workspace1/ExpressTolling/JUnit 4/org.hamcrest.core_1.3.0.v201303031735.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Pelluri/workspace1/ExpressTolling/Referenced Libraries/jose4j-0.6.3.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
