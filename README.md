@@ -19,7 +19,7 @@ Calculate the distance and cost between the two end points from the Json file wh
   
   or
   
-* Check the paths of the jar folders in the .classpath file:
+    Check the paths of the jar folders in the .classpath file:
         
 	```
 	<classpathentry kind="lib" path="./JUnit 4/junit.jar"/>
