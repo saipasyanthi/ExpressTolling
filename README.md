@@ -10,7 +10,7 @@ Calculate the distance and cost between the two end points from the Json file wh
 
 * Clone this repository in to your eclipse
 * Make sure you are using JDK 1.8
-* Check the dependency jars:
+* Check the dependency jars if any issue in the Project:
 
      In eclipse go to project-> Right click-> Build Path-> Configure Build Path-> Libraries-> Add External JARs..:
 
