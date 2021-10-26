@@ -64,7 +64,7 @@ public class Calculator {
 			}
 
 			if (startId == 0 || exitId == 0) {
-				System.out.println("Data no available with in the given points :" + start + "  and  " + exit);
+				System.out.println("Data not available with in the given points :" + start + "  and  " + exit);
 			} else if (startId < exitId) {
 				for (int i = startId; i < exitId; i++) {
 					JSONArray val = Location.get(i);
