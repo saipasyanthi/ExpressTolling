@@ -55,12 +55,12 @@ public class Calculator {
 				locationID.setId(entry.getKey());
 				locationID.setName(name);
 				if (locationID.getName().equalsIgnoreCase(start)) {
-					startId = Integer.parseInt(entry.getKey());
+					startId = Integer.parseInt(locationID.getId());
 				}
 				if (locationID.getName().equalsIgnoreCase(exit)) {
-					exitId = Integer.parseInt(entry.getKey());
+					exitId = Integer.parseInt(locationID.getId());
 				}
-				Location.put(Integer.parseInt(entry.getKey()), routes);
+				Location.put(Integer.parseInt(locationID.getId()), routes);
 			}
 
 			if (startId == 0 || exitId == 0) {
